@@ -1,5 +1,15 @@
 # Yacs
-Yet Another Cow Say
+
+```
+-----------------------------
+| YACS - Yet Another CowSay |
+-----------------------------
+    \   ^__^
+     \  (oo)\_______
+        (__)\       )\/\
+            ||----w |
+            ||     ||
+```
 
 ## WHY?
 The main goal of this is to demonstrate  some of the features of Python OO
