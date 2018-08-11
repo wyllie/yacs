@@ -8,5 +8,5 @@ setup(
     version='1.0.0',
     packages=find_packages(exclude=["*.tests", "*.tests.*", "tests.*", "tests"]),
     license='MIT License'
-    long_description=open('README.md').read(),
+    long_description=open('README.md').read()
 )
