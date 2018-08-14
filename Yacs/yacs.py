@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 # Yacs 1.0 (Yet Another CowSay)
 # A very simple version of Cowsay written in Python
 # Andrew Wyllie (c) 2018
