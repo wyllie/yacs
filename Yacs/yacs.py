@@ -48,7 +48,7 @@ class Yacs():
         max_allowed_len = self.wrap()
         max_length = 0
 
-        for word in self.saying():
+        for word in self.saying().split(' '):
             if line_len + len(word) <= max_allowed_len:
                 line_len += len(word) + 1
                 saying = saying + ' ' + word
