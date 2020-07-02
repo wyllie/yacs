@@ -3,19 +3,20 @@
 import argparse
 import sys
 
-sys.path.append('../Yacs')
+sys.path.append('..')
 from Yacs.yacs import Yacs
 
 # parse the command line args and pring the yac
 parser = argparse.ArgumentParser()
-parser.add_argument('-e', '--eyes', help = 'type of eyes to use')
-parser.add_argument('-w', '--wrap', type=int, help = 'wrap location')
-parser.add_argument('saying', metavar='saying', nargs='+', help = 'what the cow says')
+parser.add_argument('-e', '--eyes', help='type of eyes to use')
+parser.add_argument('-w', '--wrap', type=int, help='wrap location')
+parser.add_argument('saying', metavar='saying', nargs='+', help='what the cow says')
 args = parser.parse_args()
 
+saying = ' '.join(args.saying)
 yac = Yacs()
 yac.eyes(args.eyes)
-yac.saying(args.saying)
+yac.saying(saying)
 yac.wrap(args.wrap)
 
 print(yac.the_yac())
