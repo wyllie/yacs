@@ -5,7 +5,7 @@ setup(
     description='Yet Another CowSay',
     author='Andrew Wyllie',
     author_email='wyllie@dilex.net',
-    version='1.0.1',
+    version='1.0.2',
     packages=find_packages(exclude=["*.tests", "*.tests.*", "tests.*", "tests"]),
     license='MIT License',
     long_description=open('README.md').read()
